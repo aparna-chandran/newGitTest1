@@ -1,0 +1,91 @@
+body{
+	background-color: #f3f3f3;
+}
+/*Common styles*/
+.container{
+	width: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*Header styling starts*/
+.navbar{
+	margin-bottom: 0;
+}
+.nav{
+	margin: 0;
+}
+nav ul{
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+	flex-direction:row;
+}
+/*Standard styling starts*/
+.tagline__wrapper{
+	background: #fff;
+	overflow: hidden;
+}
+.standard__tag{
+	padding: 0;
+}
+.standard__umbrella{
+	padding: 0;
+}
+/*Beauty item list styling starts*/
+.beauty_itemlist{
+	background: #fff;
+	overflow: hidden;
+}
+.beautyitems__content{
+	background: #fff;
+	overflow: hidden;
+}
+/*Online beauty tips styling starts here*/
+.online__beauty{
+	padding: 0;
+}
+.online__tips img{
+	width: 100%;
+}
+.online__beautygirl{
+	padding: 0;
+}
+/*Online item styling section starts*/
+.online__vorteile{
+	padding: 0;
+}
+.onlineitem__wrapper{
+	padding: 0;
+}
+.onlineitem__wrapper img{
+	width: 100%;
+	height: 80px;
+}
+.footer__socialize ul{
+	display: flex;
+	padding: 0;
+	background: #e5e5e5;
+	margin: 0;
+}
+.footer__socialize ul li{
+	flex-direction:row;
+	list-style: none;
+	margin: 0 20px;
+}
+.footer__bottom{
+	padding: 0;
+}
+
+/*Media queries*/
+@media only screen and (max-width:768px){
+	.standard__tag img,.standard__umbrella  img{
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width:650px){
+	.container{
+		width: 100%;
+	}
+}
